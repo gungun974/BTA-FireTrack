@@ -1,13 +1,17 @@
 {
-    "required": true,
-    "minVersion": "0.8",
-    "package": "gungun974.firetrack.mixins",
-    "compatibilityLevel": "JAVA_8",
-    "mixins": [
-    ],
-    "client": [
-    ],
-    "injectors": {
-        "defaultRequire": 1
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gungun974.firetrack.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockLogicActivatorMixin",
+    "BlockLogicTNTMixin",
+    "ItemBucketMixin",
+    "ItemFireStrikerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
   }
 }

@@ -1,6 +1,7 @@
 package gungun974.firetrack;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.core.item.ItemBucket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
